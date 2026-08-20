@@ -2,6 +2,7 @@ import { useState } from "react"
 import { ChatMessage } from "@/components/ChatMessage"
 import { ChatComposer } from "@/components/ChatComposer"
 import { Sidebar } from "@/components/Sidebar"
+import { AuthPage } from "@/components/AuthPage"
 
 interface Message {
   role: "user" | "assistant"
@@ -9,10 +10,15 @@ interface Message {
 }
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [messages, setMessages] = useState<Message[]>([])
 
   const handleSend = (content: string) => {
     setMessages((prev) => [...prev, { role: "user", content }])
+  }
+
+  if (!isAuthenticated) {
+    return <AuthPage onAuthenticated={() => setIsAuthenticated(true)} />
   }
 
   return (
