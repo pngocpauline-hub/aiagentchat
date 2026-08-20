@@ -1,16 +1,19 @@
 
 # Functionality: 
 
-### Signing up system:
- - Users must input their email account
+
+### Sign up options 
+ - Users must input their email account or phone number 
  - type in a password that is at least 8 characters long with uppercase and lowercase letters, numbers and special characters
- - user then has to retype the password for confirmation.
+ - user then has to retype the password for confirmation. 
+  - Users can sign up using their google account (without having to retype their email address or remember a new password)
 ### Logging in system: 
+- User can log in using their google account 
 - Account is signed up 
 - Log in in order to access the app
 - Password managers auto fill their credentials (if allowed and saved into their personal devices). 
 ### =>Logging in from a different device
-- Fill in all their credentials on the log in page
+- Fill in all their credentials on the log in page or choose to log in using the google account
 - Confirmation email or a verification code via SMS (their phone number) will be sent. 
 ### Reset password: 
 - Users press on the "forgotten password" button
