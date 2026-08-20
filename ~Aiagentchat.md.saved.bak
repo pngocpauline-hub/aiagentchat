@@ -79,3 +79,4 @@
 - Chat history
 ### Design core chat UI 
 - Chat screen, message bubbles, text input, send button,AI typing/loading state,error state, regenerate/retry response,new conversation,conversation history, AI agent name/avatar
+
