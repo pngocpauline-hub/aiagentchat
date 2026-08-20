@@ -1,0 +1,62 @@
+<svg width="1360" height="800" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#fdf6fb"/>
+<stop offset="45%" stop-color="#f3ecfb"/>
+<stop offset="100%" stop-color="#eaf1fd"/>
+</linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#c7b3f0" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#c7b3f0" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#a9c9f7" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="#a9c9f7" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect x="0" y="0" width="680" height="400" fill="url(#bgGrad)"/>
+<circle cx="120" cy="90" r="90" fill="url(#glow1)"/>
+<circle cx="560" cy="300" r="110" fill="url(#glow2)"/>
+<circle cx="420" cy="80" r="70" fill="url(#glow2)"/>
+<g fill="#9b7fd4" opacity="0.85">
+<path d="M90 60 L96 76 L112 78 L99 89 L103 105 L90 96 L77 105 L81 89 L68 78 L84 76 Z"/>
+</g>
+<g fill="#7fa8e0" opacity="0.8">
+<path d="M300 40 L304 52 L316 53 L307 61 L310 73 L300 66 L290 73 L293 61 L284 53 L296 52 Z"/>
+</g>
+<g fill="#b98fe0" opacity="0.75">
+<path d="M540 130 L545 144 L559 146 L548 156 L552 170 L540 162 L528 170 L532 156 L521 146 L535 144 Z"/>
+</g>
+<g fill="#7fa8e0" opacity="0.7">
+<path d="M620 60 L624 70 L634 71 L626 78 L629 88 L620 82 L611 88 L614 78 L606 71 L616 70 Z"/>
+</g>
+<g fill="#c68fd9" opacity="0.7">
+<path d="M60 220 L64 230 L74 231 L66 238 L69 248 L60 242 L51 248 L54 238 L46 231 L56 230 Z"/>
+</g>
+<g fill="#8fb3e8" opacity="0.75">
+<path d="M460 260 L465 273 L478 275 L468 284 L471 297 L460 290 L449 297 L452 284 L442 275 L455 273 Z"/>
+</g>
+<g fill="#a486d9" opacity="0.65">
+<path d="M200 320 L204 330 L214 331 L206 338 L209 348 L200 342 L191 348 L194 338 L186 331 L196 330 Z"/>
+</g>
+<g fill="#8fb3e8">
+<circle cx="150" cy="150" r="2.4"/>
+<circle cx="250" cy="200" r="2"/>
+<circle cx="380" cy="180" r="2.6"/>
+<circle cx="480" cy="120" r="2"/>
+<circle cx="600" cy="200" r="2.4"/>
+<circle cx="340" cy="300" r="2"/>
+<circle cx="140" cy="280" r="2.2"/>
+<circle cx="560" cy="350" r="2"/>
+<circle cx="230" cy="100" r="1.8"/>
+<circle cx="420" cy="330" r="2.2"/>
+</g>
+<g fill="#b98fe0">
+<circle cx="100" cy="330" r="2"/>
+<circle cx="320" cy="130" r="1.8"/>
+<circle cx="510" cy="220" r="2.2"/>
+<circle cx="640" cy="130" r="1.8"/>
+<circle cx="40" cy="150" r="2"/>
+<circle cx="270" cy="340" r="1.8"/>
+</g>
+</svg>
