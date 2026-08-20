@@ -1,4 +1,5 @@
 #FRONTEND
+
 #Functional: 
 - User friendly interface (affordance, easy to navigate throughout the website)
 - Provide user registration 
