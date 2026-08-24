@@ -1,25 +1,6 @@
 
 # Functionality: 
 
-
-### Sign up options 
- - Users must input their email account or phone number 
- - type in a password that is at least 8 characters long with uppercase and lowercase letters, numbers and special characters
- - user then has to retype the password for confirmation. 
-  - Users can sign up using their google account (without having to retype their email address or remember a new password)
-### Logging in system: 
-- User can log in using their google account 
-- Account is signed up 
-- Log in in order to access the app
-- Password managers auto fill their credentials (if allowed and saved into their personal devices). 
-### =>Logging in from a different device
-- Fill in all their credentials on the log in page or choose to log in using the google account
-- Confirmation email or a verification code via SMS (their phone number) will be sent. 
-### Reset password: 
-- Users press on the "forgotten password" button
-- Page displays text that guides user to check confirmation email for resetting their password
-- Once the user confirms, they can then change their password (at least 8 characters long with uppercase and lowercase letters, numbers and special characters) 
-- Data validation to keep track of user credentials 
 ### Chat function: 
 - Display a chat window for communication between the user and AI agent.
 - Provide a text input field for users to enter messages.
@@ -55,7 +36,7 @@
 - The same UI components should be used throughout the application.
 - The interface should maintain a consistent visual style across different pages.
 ### Error Handling
-- The frontend should clearly communicate when an action cannot be completed.
+- The FE should clearly communicate when an action cannot be completed.
 - Users should receive clear feedback when a message fails to send.
 - Loading and error states should be visually distinguishable.
 ### Security & Privacy
@@ -67,17 +48,23 @@
 - The design should be structured so that additional AI agents and chat features can be added later.
 - The interface should be easy to update without redesigning the entire application.
 
+## Interface design 
+- 
 # Priorities when creating the website: 
 ### Defining target audience
-- Help customers explain any concerns regarding insurance (the AI is considered an expert agent)
+- Help customers explain any concerns regarding insurance (the AI is considered an expert agent) 
+- Customers who want support in health insurance 
+- Customers who wants to work or already have worked with the company 
+- Customers who need assistance with procedures 
 ### Purpose of the AI  
 - Experimental AI agent to support the users with customer inquiry
 - The user can ask questions about their benefits (coverage, health insurance), but the scope is only about health insurance policies in Papaya's business. 
 ### Mapping out user flow 
-- Landing/ introductory page
-- Sign up/ sign in page 
-- AI agent chat 
-- Chat history
+- AI agent chat box 
+- New chat 
+- Check chat history
 ### Design core chat UI 
 - Chat screen, message bubbles, text input, send button,AI typing/loading state,error state, regenerate/retry response,new conversation,conversation history, AI agent name/avatar
+
+
 
