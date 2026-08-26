@@ -24,13 +24,18 @@
 - Buttons and interactive elements should be easy to identify.
 - The interface should support keyboard navigation.
 - Font sizes should remain readable across different screen sizes.  
-# Priorities when creating the website:
-### Purpose of the AI  
+## Priorities when designing the UI / to-do list
+- Identifying the key purpose and target audience 
+- Concluding layout design 
+- Choosing the language and UI elements 
+- Testing the application
+
+### Purpose of the project 
 - Experimental AI agent to support the users with customer inquiry
 - The user can ask questions about their benefits (coverage, health insurance), but the scope is only about health insurance policies in Papaya's business. 
 ### Design core chat UI 
 - Chat screen, message bubbles, text input, send button,AI typing/loading state,error state, regenerate/retry response,new conversation,conversation history, AI agent name/avatar
-## AI Features:
+## AI Features (in mockup)
 - mock response 
 - response bubble 
 - loading and typing animation 
