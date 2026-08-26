@@ -48,8 +48,6 @@
 - The design should be structured so that additional AI agents and chat features can be added later.
 - The interface should be easy to update without redesigning the entire application.
 
-## Interface design 
-- 
 # Priorities when creating the website: 
 ### Defining target audience
 - Help customers explain any concerns regarding insurance (the AI is considered an expert agent) 
@@ -64,8 +62,22 @@
 - New chat 
 - Check chat history
 ### Design core chat UI 
-,- Chat screen, message bubbles, text input, send button,AI typing/loading state,error state, regenerate/retry response,new conversation,conversation history, AI agent name/avatar
-### Features:
+- Chat screen, message bubbles, text input, send button,AI typing/loading state,error state, regenerate/retry response,new conversation,conversation history, AI agent name/avatar
+## AI Features:
 - Acts autonomously rather than waiting for user commands.   
-- The interface must show what the agent is doing( explain why it chose a specific action) 
+- The interface must show what the agent is doing(explain why it chose a specific action) 
 - Let the user override at any point, and recover when something goes wrong.   
+- AI avatar/icon — visually distinguishes the bot from the user
+- Bot name — e.g. “Loc’s least favorite AI” 
+- Typing/generating indicator — shows when the AI is generating
+- Streaming response — text appears as the AI generates it
+- Copy response — copy the bot's answer
+- Retry / Regenerate — ask the bot to generate another response
+- Like / Dislike — give feedback on a response
+- Message timestamps
+- Formatted responses — headings, lists, bold text, etc.
+- Code blocks — formatted code with a copy button
+- Sources/citations — if the agent uses external information
+- Tool/action indicators
+- Error state — clearly tell the user if the AI failed to respond
+- Stop generating button — let the user interrupt a response
