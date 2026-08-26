@@ -1,5 +1,5 @@
 
-# Functionality: 
+## Functionality: 
 
 ### Chat function: 
 - Display a chat window for communication between the user and AI agent.
@@ -18,7 +18,7 @@
 - Bottom input area for entering messages.
 - AI agent information/settings area.
 
-# Non-functional: 
+## Non-functional: 
 ### Accessibility
 - Text should have sufficient contrast against the background.
 - Buttons and interactive elements should be easy to identify.
@@ -30,10 +30,10 @@
 - Choosing the language and UI elements 
 - Testing the application
 
-### Purpose of the project 
+## Purpose of the project 
 - Experimental AI agent to support the users with customer inquiry
 - The user can ask questions about their benefits (coverage, health insurance), but the scope is only about health insurance policies in Papaya's business. 
-### Design core chat UI 
+## Design core chat UI 
 - Chat screen, message bubbles, text input, send button,AI typing/loading state,error state, regenerate/retry response,new conversation,conversation history, AI agent name/avatar
 ## AI Features (in mockup)
 - mock response 
