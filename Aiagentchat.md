@@ -19,65 +19,21 @@
 - AI agent information/settings area.
 
 # Non-functional: 
-### Responsive Design
-- The interface should work across desktop, tablet, and mobile screen sizes.
-- Chat bubbles and input fields should automatically adjust to different screen widths.
-- The sidebar should adapt or collapse on smaller screens.
 ### Accessibility
 - Text should have sufficient contrast against the background.
 - Buttons and interactive elements should be easy to identify.
 - The interface should support keyboard navigation.
 - Font sizes should remain readable across different screen sizes.  
-### Performance
-- The chat interface should load quickly, moving across pages (less than 5 seconds) 
-- AI agent must take less than 30 seconds to respond 
-### Consistency
-- Colors, typography, spacing, buttons, and icons should follow a consistent design system.
-- The same UI components should be used throughout the application.
-- The interface should maintain a consistent visual style across different pages.
-### Error Handling
-- The FE should clearly communicate when an action cannot be completed.
-- Users should receive clear feedback when a message fails to send.
-- Loading and error states should be visually distinguishable.
-### Security & Privacy
-- Sensitive user information should not be unnecessarily displayed in the interface.
-- User conversations should be visually separated between different accounts.
-- Authentication-related information should be presented clearly and securely.
-### Maintainability
-- The FE should use reusable UI components.
-- The design should be structured so that additional AI agents and chat features can be added later.
-- The interface should be easy to update without redesigning the entire application.
-
-# Priorities when creating the website: 
-### Defining target audience
-- Help customers explain any concerns regarding insurance (the AI is considered an expert agent) 
-- Customers who want support in health insurance 
-- Customers who wants to work or already have worked with the company 
-- Customers who need assistance with procedures 
+# Priorities when creating the website:
 ### Purpose of the AI  
 - Experimental AI agent to support the users with customer inquiry
 - The user can ask questions about their benefits (coverage, health insurance), but the scope is only about health insurance policies in Papaya's business. 
-### Mapping out user flow 
-- AI agent chat box 
-- New chat 
-- Check chat history
 ### Design core chat UI 
 - Chat screen, message bubbles, text input, send button,AI typing/loading state,error state, regenerate/retry response,new conversation,conversation history, AI agent name/avatar
 ## AI Features:
-- Acts autonomously rather than waiting for user commands.   
-- The interface must show what the agent is doing(explain why it chose a specific action) 
-- Let the user override at any point, and recover when something goes wrong.   
-- AI avatar/icon — visually distinguishes the bot from the user
-- Bot name — e.g. “Loc’s least favorite AI” 
-- Typing/generating indicator — shows when the AI is generating
-- Streaming response — text appears as the AI generates it
-- Copy response — copy the bot's answer
-- Retry / Regenerate — ask the bot to generate another response
-- Like / Dislike — give feedback on a response
-- Message timestamps
-- Formatted responses — headings, lists, bold text, etc.
-- Code blocks — formatted code with a copy button
-- Sources/citations — if the agent uses external information
-- Tool/action indicators
-- Error state — clearly tell the user if the AI failed to respond
-- Stop generating button — let the user interrupt a response
+- mock response 
+- response bubble 
+- loading and typing animation 
+- suggested questions 
+- file attachment options (image, voice)
+- human agent button 
